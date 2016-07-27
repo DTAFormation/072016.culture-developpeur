@@ -29,7 +29,11 @@ h6, .h6 {
     width: 970px;
   }
 }
-
+body {
+    
+    font-size: 16px;
+  
+}
 
 /*
  * Masthead for nav
@@ -89,7 +93,7 @@ h6, .h6 {
   font-weight: normal;
 }
 .blog-description {
-  font-size: 20px;
+  font-size: 25px;
   color: #999;
 }
 
@@ -139,6 +143,7 @@ h6, .h6 {
 
 .blog-post {
   margin-bottom: 60px;
+  
 }
 .blog-post-title {
   margin-bottom: 5px;

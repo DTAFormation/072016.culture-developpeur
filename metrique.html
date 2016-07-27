@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -34,15 +34,35 @@
 
   <body>
 
-    <div class="blog-masthead">
+    <div class="navbar-wrapper">
       <div class="container">
-        <nav class="blog-nav">
-          <a class="blog-nav-item active" href="#">Home</a>
-          <a class="blog-nav-item" href="#">New features</a>
-          <a class="blog-nav-item" href="#">Press</a>
-          <a class="blog-nav-item" href="#">New hires</a>
-          <a class="blog-nav-item" href="#">About</a>
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="http://getbootstrap.com/examples/carousel/#">Project name</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="http://getbootstrap.com/examples/carousel/#">Home</a></li>
+                <li><a href="NoSQL.html">Bases de données NOSQL</a></li>
+                <li><a href="develop.html">Developpement</a></li>
+                <li><a href="metrique.html">M&eacutetriques</a></li>
+                 <li><a href="framework.html">Frameworks</a></li>
+                <li><a href="robotique.html">Robotique</a></li>
+                <li><a href="valeurs-developpeur.html">valeurs</a></li>
+                
+              </ul>
+            </div>
+          </div>
         </nav>
+
       </div>
     </div>
 
@@ -50,7 +70,7 @@
 
       <div class="blog-header">
         <h1 class="blog-title">Introduction au cursus et culture du developpeur</h1>
-        <p class="lead blog-description">The official example template of creating a blog with Bootstrap.</p>
+ 
       </div>
 
       <div class="row">
@@ -82,27 +102,23 @@
             </p>
             <hr>
             
-          </div><!-- /.blog-post -->
-
-          <nav>
-            <ul class="pager">
-              <li><a href="#">Previous</a></li>
-              <li><a href="#">Next</a></li>
-            </ul>
-          </nav>
-
-        </div><!-- /.blog-main -->
+                </div>
+                <!-- /.blog-post -->
 
 
-      </div><!-- /.row -->
 
-    </div><!-- /.container -->
+            </div>
+            <!-- /.blog-main -->
+
+
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
 
     <footer class="blog-footer">
-      <p>Blog template built for <a href="http://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-      <p>
-        <a href="#">Back to top</a>
-      </p>
+
     </footer>
 
 
@@ -114,5 +130,6 @@
     <script src="../../dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+</body>
+
 </html>
